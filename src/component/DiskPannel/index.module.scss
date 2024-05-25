@@ -1,0 +1,24 @@
+.disk {
+    height: 217px;
+    width: 217px;
+    margin-top: 36px;
+    // background-color: rgba(255, 255, 255, 0.10);
+
+}
+
+.diskImg {
+    animation: spin 30s linear infinite;
+    /* 应用动画 */
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+        /* 开始时的旋转角度 */
+    }
+
+    to {
+        transform: rotate(360deg);
+        /* 结束时的旋转角度 */
+    }
+}

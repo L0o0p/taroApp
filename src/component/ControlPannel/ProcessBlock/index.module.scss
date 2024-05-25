@@ -1,0 +1,35 @@
+
+
+.processBlock {
+    // background-color: red;
+}
+
+.processBar {
+    height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .bar {
+        width: 335px;
+        height: 2px;
+        flex-shrink: 0;
+        border-radius: 8px;
+        background: #A0A0A2;
+        background: color(display-p3 0.6275 0.6275 0.6353);
+    }
+}
+
+.processTime {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 9px;
+    color: rgba(255, 255, 255, 0.90);
+    color: color(display-p3 1 1 1 / 0.90);
+    font-family: "PingFang SC";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
